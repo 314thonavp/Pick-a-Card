@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pick a Card</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <div class="title-container">
+            <h1>Pick a Card</h1>
+        </div>
+        <div class="logo-container">
+            <img src="AP_LOGO.png" alt="A2 Bio Logo" class="a2-logo">
+        </div>
+        <div class="box-container">
+            <div class="box" onclick="revealBox(0)" style="width: 900px; height: 500px;">1</div>
+            <div class="box" onclick="revealBox(1)">2</div>
+            <div class="box" onclick="revealBox(2)">3</div>
+            <div class="box" onclick="revealBox(3)">4</div>
+            <div class="box" onclick="revealBox(4)">5</div>
+        </div>
+        <div class="result-container">
+            <h2 id="next-speaker">Next Speaker: None</h2>
+            <img id="gif" src="" alt="gif" style="display: none;">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
